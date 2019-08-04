@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="col-sm-8">
+    <h2>Why Django is Popular</h2>
+    <small>Posted by Admin on August 24, 2019</small>
+    <img src="{% static 'img/Django-Post1.png' %}" class="rounded mx-auto d-block" alt="Author" width="mx-auto"
+        height="150">
+    <p>Django is a free, open-source web framework written in the most popular
+        Python programming language. <a href="#">Read More</a></p>
+    <br>
+    <hr />
+    <br>
+    <h2>How to Send Email in Django</h2>
+    <small>Posted by Admin on July 02, 2019</small>
+    <img src="{% static 'img/Django-Post2.png' %}" class="rounded mx-auto d-block" alt="Author" width="mx-auto"
+        height="150">
+    <p>In this tutorial, you’ll learn how to create a Registration Form for User
+        Signup. We’ll add more functionality by adding validation and sending a
+        confirmation link on users’ email. <a href="#">Read More</a></p>
+</div>
+
+{% endblock content %}
